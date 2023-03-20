@@ -76,7 +76,6 @@ impl Solution {
 }
 
 fn main(){
-    // print!("{}", Solution::decimal_to_roman(2,'I','V'));
     let mut integer = 1;
     assert!(String::from("I")==Solution::int_to_roman(integer));
     integer = 3;
